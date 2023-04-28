@@ -11,7 +11,10 @@ const Customer = new Schema({
         type: String,
         required: true
     },
-    NIC
+    NIC : {
+        type : String,
+        required :true
+    }
 })
 
 export default mongoose.model('Customer', Customer)
