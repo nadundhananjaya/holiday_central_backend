@@ -1,4 +1,4 @@
-import Hotel from "../../model/Hotel.js";
+import Hotel from "../../model/Hotel/Hotel.js";
 export const AddPackage = (req,res) => {
    const hotel = new Hotel({
        hotel_name : "Sample",
@@ -14,6 +14,9 @@ export const PackageList = (req,res) => {
     res.send('List')
 }
 
+export const SearchPackage = (req,res) => {
+    res.send("Search ...")
+}
 export const Update = (req,res)=> {
     res.send('update')
 }

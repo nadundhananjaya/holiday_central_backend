@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da84a21-dda0-4e6c-aac2-8ac76d5c3bac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignores" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Flight/FlightController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Hotel/HotelController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Packages/PackageController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/route/PackagesRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Customer/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Flight/AirPlane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Flight/Flight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Flight/FlightReservation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelFacility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelReservation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelRoomType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Flight/FlightController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Flight/FlightController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Packages/PackageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Packages/PackageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Hotel/Hotel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model/Hotel" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -55,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682676243574</updated>
-      <workItem from="1682676244862" duration="5585000" />
+      <workItem from="1682676244862" duration="22407000" />
     </task>
     <servers />
   </component>
