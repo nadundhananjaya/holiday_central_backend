@@ -11,10 +11,6 @@ const AirPlane = new Schema({
         type: String,
         required: true
     },
-    NIC : {
-        type: String,
-        required: true
-    }
 })
 
 export default mongoose.model('AirPlane', AirPlane)
