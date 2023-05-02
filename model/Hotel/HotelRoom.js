@@ -21,6 +21,11 @@ const HotelRoom = new Schema({
     maxPersons: {
         type: Number,
         required: true
+
+    },
+    noOfRooms : {
+        type : Number,
+        required : true
     }
 })
 

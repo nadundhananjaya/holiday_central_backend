@@ -45,7 +45,13 @@ const HotelSchema = new Schema({
         type: Number,
         required: false,
         default: null
-    }
+    },
+    facilities: {
+        type: [String],
+        required: false,
+        default : []
+    },
+
 })
 
 export default mongoose.model('Hotel', HotelSchema)

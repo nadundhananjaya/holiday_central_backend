@@ -4,8 +4,7 @@ const Schema = mongoose.Schema;
 
 const Flight = new Schema({
     airPlane: {
-        type: Schema.Types.ObjectId,
-        ref: 'AirPlane',
+        type: String,
         required: true
     },
     departureAirport: {
@@ -13,7 +12,7 @@ const Flight = new Schema({
         required: true
     },
     departureTime: {
-        type: String,
+        type: Date,
         required: true
     },
     arrivalAirport: {
@@ -21,33 +20,21 @@ const Flight = new Schema({
         required: true
     },
     arrivalTime: {
-        type: String,
-        required: true
-    },
-    cabinClass: {
-        type: String,
+        type: Date,
         required: true
     },
     duration: {
         type: String,
         required: true
     },
-    price: {
-        type: String,
-        required: true
-    },
     mealPreferences: {
-        type: String,
+        type: [],
         required: true
     },
-    seatSelection: {
-        type: String,
+    seats :  {
+        type: [],
         required: true
     },
-    noOfSeats: {
-        type: Number,
-        required: true
-    }
 })
 
 export default mongoose.model('Flight', Flight)

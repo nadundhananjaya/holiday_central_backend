@@ -14,6 +14,11 @@ const Customer = new Schema({
     NIC : {
         type : String,
         required :true
+    },
+    registeredDate : {
+        type : Date,
+        default : Date.now(),
+        required : false
     }
 })
 

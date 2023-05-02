@@ -4,18 +4,9 @@ const Schema = mongoose.Schema
 
 
 const HotelRoomType = new Schema({
-    hotelId: {
-        type: Schema.Types.ObjectId,
-        ref: 'Hotel'
-    },
-    facilityName: {
+    roomType: {
         type: "String",
         isRequired: true
-    },
-    extraCharge: {
-        type: Number,
-        required: false,
-        default: null
     },
 })
 
