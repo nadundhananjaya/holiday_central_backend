@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da84a21-dda0-4e6c-aac2-8ac76d5c3bac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/Packages/Package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Packages/PackageReservation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Hotel/HotelController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Hotel/HotelController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Hotel/HotelRoomController.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/Packages/PackageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Packages/PackageController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Hotel/Hotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Hotel/Hotel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelFacility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelRoom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelRoomType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/route/PackagesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/PackagesRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +63,8 @@
       <workItem from="1682676244862" duration="70529000" />
       <workItem from="1682959518071" duration="9013000" />
       <workItem from="1683050898391" duration="3592000" />
-      <workItem from="1683123226930" duration="5152000" />
+      <workItem from="1683123226930" duration="5380000" />
+      <workItem from="1683130352173" duration="1257000" />
     </task>
     <servers />
   </component>

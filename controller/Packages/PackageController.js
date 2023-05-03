@@ -1,5 +1,4 @@
 import Package from "../../model/Packages/Package.js";
-import Hotel from "../../model/Hotel/Hotel.js";
 
 
 const requiredFields = [
@@ -83,7 +82,7 @@ export const UpdatePackage = (req, res)=> {
             pricePerPerson : req.body.pricePerPerson
         }
 
-       Package.findByIdAndUpdate(filter,packageDetails).then(result => {
+        Package.findByIdAndUpdate(filter,packageDetails).then(result => {
             res.send(`${result} is successfully Updated !!!`)
         }).catch(error => {
             res.send(`${error} Error !!!`)
