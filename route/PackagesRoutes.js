@@ -1,11 +1,15 @@
 import express from "express";
-import {AddPackage, PackageList} from "../controller/Packages/PackageController.js";
+import {AddPackage, PackageList, removePackage, UpdatePackage} from "../controller/Packages/PackageController.js";
 
 const PackagesRoutes = express.Router()
 
-PackagesRoutes.get('/add',AddPackage)
+PackagesRoutes.post('/add',AddPackage)
 
-PackagesRoutes.get('/list',PackageList)
+PackagesRoutes.post('/list',PackageList)
+
+PackagesRoutes.put('/update',UpdatePackage)
+
+PackagesRoutes.delete('/delete',removePackage)
 
 export default PackagesRoutes
 

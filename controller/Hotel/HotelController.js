@@ -10,7 +10,8 @@ const requiredFields = [
     "contact",
     "lat",
     "lng",
-    "facilities"
+    "facilities",
+    "rooms"
 ]
 
 export const AddHotel = (req,res) => {
@@ -33,10 +34,11 @@ export const AddHotel = (req,res) => {
             lat : req.body.lat,
             lng : req.body.lng,
             facilities : req.body.facilities,
+            rooms : req.body.rooms
         });
 
         hotel.save().then(result => {
-            res.send(`${result} is successfully removed !!!`)
+            res.send(`${result} is successfully Added !!!`)
         }).catch(error => {
             res.send(`${error}`)
         })
@@ -66,7 +68,8 @@ export const UpdateHotel = (req,res) => {
             contact : req.body.contact,
             lat : req.body.lat,
             lng : req.body.lng,
-            facilities : req.body.facilities
+            facilities : req.body.facilities,
+            rooms : req.body.rooms
         });
 
         Hotel.findByIdAndUpdate(filter,hotel).then(result => {

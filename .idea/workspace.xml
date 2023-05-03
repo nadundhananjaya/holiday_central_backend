@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5da84a21-dda0-4e6c-aac2-8ac76d5c3bac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/Customer/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Flight/AirPlane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Flight/Flight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Flight/FlightReservation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelFacility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelReservation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelRoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Hotel/HotelRoomType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Packages/Package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Packages/PackageReservation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Flight/FlightController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Flight/FlightController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Hotel/HotelController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Hotel/HotelController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/Packages/PackageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Packages/PackageController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Hotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Hotel/Hotel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel/Hotel.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/Hotel/Hotel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelFacility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelRoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelRoomType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/PackagesRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/route/PackagesRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.14.2",
-    "javascript.nodejs.core.library.typings.version": "16.18.25",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.14.2&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.25&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/Customer" />
       <recent name="$PROJECT_DIR$/model/Hotel" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -63,7 +67,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682676243574</updated>
-      <workItem from="1682676244862" duration="22407000" />
+      <workItem from="1682676244862" duration="70529000" />
+      <workItem from="1682959518071" duration="9013000" />
+      <workItem from="1683050898391" duration="3592000" />
+      <workItem from="1683123226930" duration="5152000" />
     </task>
     <servers />
   </component>

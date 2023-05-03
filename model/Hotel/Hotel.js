@@ -51,6 +51,11 @@ const HotelSchema = new Schema({
         required: false,
         default : []
     },
+    rooms : {
+        type : [],
+        required : false,
+        default : []
+    }
 
 })
 
