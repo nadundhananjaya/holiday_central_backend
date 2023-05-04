@@ -20,10 +20,10 @@ export const makeCheckout = (req,res) => {
         const checkoutDetails = new Checkout({
             customerName: req.body.customerName,
             customerMobile: req.body.customerMobile,
-            checkOutDetails: req.body.checkOutDetails
+            checkOutDetails: req.body.customerMobile,
         });
         checkoutDetails.save().then(result => {
-            res.status(200).send(`${result} is successfully added !!!`)
+            res.status(200).send(JSON.stringify(`package is successfully added !!!`))
         }).catch(error => {
             res.status(500).send(`Error : ${Error} !!!`)
         })
