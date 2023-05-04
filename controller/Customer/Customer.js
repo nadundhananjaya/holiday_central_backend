@@ -3,7 +3,6 @@ import Customer from "../../model/Customer/Customer.js";
 const requiredFields = [
     "customerName",
     "contact",
-    "NIC",
 ]
 
 export const AddCustomer = (req, res) => {

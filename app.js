@@ -6,6 +6,7 @@ import FlightRoutes from "./route/FlightRoutes.js";
 import CustomerRoutes from "./route/CustomerRoutes.js";
 import HotelReservationRoutes from "./route/FlightReservationRoutes.js";
 import HotelRoutes from "./route/HotelRoutes.js";
+import CheckoutRoutes from "./route/CheckoutRoutes.js";
 
 
 const app = express()
@@ -34,6 +35,8 @@ app.use('/flight-reservation', HotelReservationRoutes)
 app.use('/hotel', HotelRoutes)
 
 app.use('/package', PackagesRoutes)
+
+app.use('/checkout', CheckoutRoutes)
 
 mongoose.connect("mongodb://localhost:27017/holiday_central").then(result => {
     app.listen(8080);
