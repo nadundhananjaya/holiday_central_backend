@@ -12,7 +12,6 @@ const requiredFields = [
     "pricePerPerson"
 ]
 
-
 export const AddPackage = (req,res) => {
 
     const missingFields = requiredFields.filter((field) => !req.body[field]);
@@ -48,7 +47,6 @@ export const PackageList = (req,res) => {
         destination : req.body.destination,
         duration : { $lte: req.body.duration},
         maxNumberOfTravelers :  { $lte: req.body.maxNumberOfTravelers },
-        // specialty : req.body.specialty,
     }
     Package.find(filter).then(result => {
         res.status(200).send(result)

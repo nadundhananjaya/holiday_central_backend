@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5da84a21-dda0-4e6c-aac2-8ac76d5c3bac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Checkout/CheckoutController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Checkout/CheckoutController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Flight/FlightReservationController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Hotel/HotelController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Hotel/HotelController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Hotel/HotelReservationController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Packages/PackageController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Packages/PackageController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Flight/FlightReservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Hotel/HotelReservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Packages/PackageReservation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/route/FlightReservationRoutes.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +76,7 @@
       <workItem from="1683130352173" duration="503000" />
       <workItem from="1683131127443" duration="2890000" />
       <workItem from="1683183422160" duration="7494000" />
+      <workItem from="1683216440884" duration="2795000" />
     </task>
     <servers />
   </component>

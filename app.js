@@ -4,7 +4,6 @@ import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import FlightRoutes from "./route/FlightRoutes.js";
 import CustomerRoutes from "./route/CustomerRoutes.js";
-import HotelReservationRoutes from "./route/FlightReservationRoutes.js";
 import HotelRoutes from "./route/HotelRoutes.js";
 import CheckoutRoutes from "./route/CheckoutRoutes.js";
 
@@ -29,8 +28,6 @@ app.use((req, res, next) => {
 app.use('/customer', CustomerRoutes)
 
 app.use('/flight', FlightRoutes);
-
-app.use('/flight-reservation', HotelReservationRoutes)
 
 app.use('/hotel', HotelRoutes)
 
